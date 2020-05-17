@@ -3,6 +3,11 @@
 A set of python scripts to analyse, present and visualise Windows .evtx log files
 This was an assignment I completed for university. 
 
+## Dependencies
+
+ - Python3
+ - Evtx (pip3 install python-evtx)
+
 ## Getting Started
 
 To start, unzip the example log files in the .7z archive, or use your own.
@@ -10,7 +15,7 @@ You should have all the python (.py) files and .evtx files in /evtx_logs.
 
 run hello.py, there will be a menu:
 
-- python hello.py
+- python3 hello.py
 
 ## Script Functions
 
@@ -25,8 +30,21 @@ Ref: www.ultimatewindowssecurity.com/securitylog/encyclopedia/
 
 View Logs - View any log files created from convert.py, analyse.py and visualise.py without having to come out of the script. There is a plaintext datasheet file in the main directory that belongs to this script. This contains all the relevant security logs with descriptions.
 
-## Directories:
+## Files
 
 CI5235_Logs - All scans made will be logged to this directory. You can view them via the "View Logs" menu item or just look in this directory yourself.
 
 evtx_logs - This directory is reserved for the .evtx log files. These will be the files being analysed by the scripts. You can add or remove any. There are some example .evtx files already.
+
+evtx_dump.py - Used for converting evtx to xml. https://github.com/williballenthin/python-evtx
+
+### Example Usage
+
+convert.py - 00:07 (Long conversion process)
+analyse.py - 01:20
+visualise.py - 01:45 (Please note, a graph pops up which you can't see on this)
+Event Database - 02:00
+View Logs - 02:30
+
+[![asciicast](https://asciinema.org/a/T0oJKJXoH3rVheQQGy7fFqe4P.svg)](https://asciinema.org/a/T0oJKJXoH3rVheQQGy7fFqe4P)
+
