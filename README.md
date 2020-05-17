@@ -1,11 +1,14 @@
 # Windows-Log-Analyser
 
 A set of python scripts to analyse, present and visualise Windows .evtx log files
-This was an assignment I completed for university.
+This was an assignment I completed for university. 
 
 ## Getting Started
 
-To start, run hello.py:
+To start, unzip the example log files in the .7z archive, or use your own.
+You should have all the python (.py) files and .evtx files in /evtx_logs.
+
+run hello.py, there will be a menu:
 
 - python hello.py
 
