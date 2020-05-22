@@ -1,3 +1,5 @@
+[Link to an article with step by step guide](https://f3dai.github.io/other/Analysing-Windows-Logs/)
+
 # Windows-Log-Analyser
 
 A set of python scripts to analyse, present and visualise Windows .evtx log files
